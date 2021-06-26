@@ -1,0 +1,133 @@
+body {
+    color: #fff;
+    background: #161616;
+    font-family: 'New Tegomin';
+    font-size: 20px;
+    background: url("img/back.jpg");
+    background-size: cover;
+}
+
+::placeholder {
+  color: #00ff41;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+.Tg7LZd{
+    padding-right: 13px;
+    height: 44px;
+    width: 44px;
+    position: relative;
+    top: 12px;
+    background: transparent;
+/*     border: none; */
+    cursor: pointer;
+    flex: 0 0 auto;
+    padding: 0;
+}
+
+body a {
+    color: #809fff;
+}
+
+@font-face {
+    font-family: 'New Tegomin';
+    src: url('font/NewTegomin-Regular.ttf');
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+  
+li a {
+    color: #33ff00;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:16px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+#Sbox:hover{
+    box-shadow: 1px 1px 8px 1px #d263ff;
+}
+#Sbox:focus-within{
+    box-shadow: 1px 1px 8px 1px #d263ff;
+    outline:none;
+}
+
+#Sbox{
+    background-color: rgba(67, 67, 67, 0.555);
+    color: #00ff2a;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 24px;
+    height:45px;
+    border:none;
+    width:500px;
+    outline: none;
+}
+.Tsite{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px;
+}
+
+#logo{
+    text-align: center;
+    font-weight: bold;
+    margin-block-end: unset;
+}
+.timing {
+	/* margin-bottom: 40px; */
+	font-size: 3.2rem;
+    text-align: center;
+    margin-block-start: unset;
+}
+form{
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    height: 38px;
+    width: 70px;
+    font-size: 14px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn:hover{
+    color: rgb(32, 190, 32);
+    background-color: #0b7dda;
+}
+
+.Tsites{
+    display: flex;
+    border: transparent;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+    height: 150px;
+}
+.container:hover{
+    box-shadow: 1px 1px 8px 1px #303030;
+    background-color: rgba(38, 41, 41, 0.185);
+}
