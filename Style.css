@@ -22,8 +22,9 @@ body {
     width: 44px;
     position: relative;
     top: 12px;
-    background: transparent;
-/*     border: none; */
+    border-radius: 8px;
+    background: #007fff;
+    border: none;
     cursor: pointer;
     flex: 0 0 auto;
     padding: 0;
