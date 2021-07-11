@@ -44,20 +44,23 @@ ul{
     overflow: hidden;
 }
 
-li {
+#head {
     float: right;
+    padding: 10px 10px;
+    font-size:16px;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 14px 14px 14px 14px;
 }
   
-li a {
+#head a{
     color: #33ff00;
-    display: block;
-    text-align: center;
-    padding: 10px 10px;
     text-decoration: none;
-    font-size:16px;
 }
-li a:hover {
+
+#head:hover {
     text-decoration: underline;
+    box-shadow: 1px 1px 8px 1px #303030; 
 }
 
 #Sbox:hover{
@@ -75,7 +78,7 @@ li a:hover {
     border-bottom-right-radius: 10px;
     font-size: 24px;
     height:45px;
-    border:none;
+    border:solid 2px cyan;
     width:500px;
     outline: none;
 }
@@ -126,7 +129,7 @@ form{
     flex-direction: column;
     text-align: center;
     width: 160px;
-    height: 150px;
+    height: 160px;
 }
 .container:hover{
     box-shadow: 1px 1px 8px 1px #303030;
