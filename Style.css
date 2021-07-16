@@ -96,6 +96,7 @@ ul{
     text-align: center;
     font-weight: bold;
     margin-block-end: unset;
+    text-shadow: 2px 2px rgb(102, 255, 0);
 }
 .timing {
 	font-size: 3.2rem;
